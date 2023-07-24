@@ -109,3 +109,80 @@
   max-width: 100%;
   height: auto;
 }
+
+.about {
+  padding: 20px;
+  background-color: #daedf4;
+}
+
+.about-us{
+  width: 80%;
+  height: fit-content;
+  margin-bottom: 3rem;
+  padding: 0 20px 0 20px;
+}
+
+.about-title{
+  color: #118AB2;
+  margin-bottom: 1rem;
+}
+
+.about-pera{
+  color: #011c25;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px 0 20px;
+}
+
+.card {
+  width: 200px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 14px;
+  color: #312d2d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card1 {
+  background-color: #FFD166;
+}
+
+.card2 {
+  background-color: #06D6A0;
+  color: #fff;
+}
+
+.card3 {
+  background-color: #118AB2;
+  color: #fff;
+}
+
+.card4 {
+  background-color: #EF476F;
+  color: #fff;
+}
